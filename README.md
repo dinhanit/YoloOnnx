@@ -47,7 +47,10 @@ Provide detailed installation instructions. If possible, create a virtual enviro
 
 
 ## Train on custom data
-1. Set up
+1. Model properties
+
+    ![image](Yolo\model_properties.png)
+2. Set up
     ```bash    
     ├───Web
     │   └───weight
@@ -63,11 +66,11 @@ Provide detailed installation instructions. If possible, create a virtual enviro
                 ├───images
                 └───labels
 
-2. Train
+3. Train
     ```bash
     cd Yolo
     python train.py
 
-3. Convert to onnx model
+4. Convert to onnx model
     ```bash
     python convert_onnx.py
