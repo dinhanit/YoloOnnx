@@ -16,7 +16,7 @@ This is project about detection using Yolov8.onnx
 
 ## Demo
 It can detect object from image or link of image
-![image](Web/exam2.png)
+<img src="Web/exam2.png" height="20%">
 
 
 ## Features
