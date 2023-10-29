@@ -49,7 +49,7 @@ Provide detailed installation instructions. If possible, create a virtual enviro
 ## Train on custom data
 1. Model properties
 
-    ![image](Yolo\model_properties.png)
+    ![image](Yolo/model_properties.png)
 2. Set up
     ```bash    
     ├───Web
