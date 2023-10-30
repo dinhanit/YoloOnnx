@@ -12,8 +12,8 @@ This is project about detection using Yolov8.onnx
   - [Features](#features)
   - [Requirements](#requirements)
   - [Installation](#installation)
-    - [github](#github)
-    - [docker](#docker)
+    - [Github](#github)
+    - [Docker](#docker)
   - [Train on custom data](#train-on-custom-data)
 
 ## Demo
@@ -35,7 +35,7 @@ Specify the software and hardware requirements needed to run the project. For ex
 
 ## Installation
 Provide detailed installation instructions. If possible, create a virtual environment for your project. Here's a general installation process:
-### github
+### Github
 1. Clone the repository:
    ```bash
    git clone https://github.com/dinhanit/YoloOnnx.git
@@ -48,11 +48,23 @@ Provide detailed installation instructions. If possible, create a virtual enviro
     ```bash
     cd YoloOnnx/Web/
     streamlit run st.pt
-### docker
+### Docker
+Quickly Start (linux)
+1. Accept .sh
+   ```bash
+      chmod +x install.sh
+2. Run install
+   ```bash
+      ./install.sh
+3. Test
+   ```bash
+    http://localhost:8501/docs
+
+Traditional docker:
 
 1. Clone the docker:
    ```bash
-      docker push dinhanit/fastapi_detect:latest
+      docker pull dinhanit/fastapi_detect:latest
 
 2. Run
     ```bash
