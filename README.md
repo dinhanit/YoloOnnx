@@ -29,7 +29,7 @@ It can detect object from image or link of image
 Specify the software and hardware requirements needed to run the project. For example:
 - Pytorch
 - Python 3.x
-- GPU with CUDA support (optional but recommended for faster inference)
+- GPU with CUDA support 
 
 ## Installation
 Provide detailed installation instructions. If possible, create a virtual environment for your project. Here's a general installation process:
