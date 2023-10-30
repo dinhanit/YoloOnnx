@@ -43,6 +43,7 @@ Provide detailed installation instructions. If possible, create a virtual enviro
 
 3. Demo with streamlit
     ```bash
+    cd YoloOnnx/Web/
     streamlit run st.pt
 
 
