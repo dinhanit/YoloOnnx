@@ -12,8 +12,6 @@ This is project about detection using Yolov8.onnx
   - [Features](#features)
   - [Requirements](#requirements)
   - [Installation](#installation)
-    - [Github](#github)
-    - [Docker](#docker)
   - [Train on custom data](#train-on-custom-data)
 
 ## Demo
@@ -35,7 +33,7 @@ Specify the software and hardware requirements needed to run the project. For ex
 
 ## Installation
 Provide detailed installation instructions. If possible, create a virtual environment for your project. Here's a general installation process:
-### Github
+
 1. Clone the repository:
    ```bash
    git clone https://github.com/dinhanit/YoloOnnx.git
@@ -43,37 +41,20 @@ Provide detailed installation instructions. If possible, create a virtual enviro
 2. Set up 
     ```bash
     pip install -r requirements.txt
+3. Demo on fastapi
 
-3. Demo with streamlit
+   + Setup docker
+        ```bash
+        chmod +x install.sh
+        ./install.sh
+   + Open browser
+        ```bash
+        http://localhost:8501/docs
+    
+4. Demo with streamlit
     ```bash
     cd YoloOnnx/Web/
     streamlit run st.pt
-### Docker
-Quickly Start (linux)
-1. Accept .sh
-   ```bash
-      chmod +x install.sh
-2. Run install
-   ```bash
-      ./install.sh
-3. Test
-   ```bash
-    http://localhost:8501/docs
-
-Traditional docker:
-
-1. Clone the docker:
-   ```bash
-      docker pull dinhanit/fastapi_detect:latest
-
-2. Run
-    ```bash
-    docker run -d -p 8501:8501 dinhanit/fastapi_detect:latest
-
-3. Test on fastapi
-    ```bash
-        http://localhost:8501/docs
-
 ## Train on custom data
 1. Model properties
 
