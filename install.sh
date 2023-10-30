@@ -1,5 +1,3 @@
-#!/bin/bash
-docker login
 # Step 1: Clone the Docker image
 docker pull dinhanit/fastapi_detect:latest
 
