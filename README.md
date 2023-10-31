@@ -16,6 +16,7 @@ This is project about detection using Yolov8.onnx
 
 ## Demo
 It can detect object from image or link of image
+With 5 classes: {0: "bicycle", 1: "bus", 2: "car", 3: "motorbike", 4: "person"}
 >> [Datasets](https://www.kaggle.com/datasets/yusufberksardoan/traffic-detection-project)
 <img src="Web/exam2.png" height="20%">
 
